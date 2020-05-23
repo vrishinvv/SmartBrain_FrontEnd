@@ -1,0 +1,18 @@
+to start up:
+1. create-react-app name_of_your_app
+//lets assume its called test
+this will set up test, and create a folder called test after isntalling all the files and required dependencies
+
+2. cd test
+3. npm start
+this will auto create a dev environment, aka a local host:3000 (by default) webpage, which will lilsten to changes you save in your code files, and appropriately update the page
+
+note:
+1. basic idea behind state transitions:
+Whenever an action happens in a component, that triggers a state change, it calls a function taht is passed down as props to
+it from the app.js file. This function handles the statetransitons.
+
+2. for debugging, remember you can use, logger and some nodethunk or something. just refer google for this.
+Havent used it here.
+
+3. if you want any style to be globally enforcing, change index.css file

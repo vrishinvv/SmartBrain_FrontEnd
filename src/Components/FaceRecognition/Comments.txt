@@ -1,0 +1,7 @@
+This puts the picture where we need it to be. 
+Few nice ideas to note:
+1. height has been set to auto, which auto resizes the pic to fit to our fixed width which is hard coded.
+Without auto, there is a possibility that the image we tried to display, became oddly disoriented beacuse of the arbitray fix in width
+
+2. Very cleverly, the box prop which merely specifies coordinated of the box, we ought to draw, is used by CSS, to draw the box. 
+This css was taken from somewhere on the net, dont remember where?

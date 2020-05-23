@@ -1,0 +1,4 @@
+This folder contains several components that you are simply rendering through your app
+like, logo, navigation, rank, register
+
+This right here, is the power of react, where you are breaking down things into components(atoms, molecules, etc). Hence all you got to do, is write small code to build the individual componnets right/correctly, and once that is done, you can simply call the component from your app.js and render it easily

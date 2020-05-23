@@ -1,0 +1,4 @@
+This component is the navigation bar right at the top. As of now, it is a very simply, right justified underlined, clickable text that canegd based on some if conditions realted to one if its props "isSignedIn". However there is a lot of scope to imporve this using material UI.
+
+OnRouteChnage is a function that is passed down as props from app.js, it is triggered whenever onClick event is triggerd.
+Note the peculiar arrow notation used here. This is inmportant, otherwise this function will be called simply on rednering this component, which no one wants.

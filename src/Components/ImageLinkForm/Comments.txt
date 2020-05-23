@@ -1,0 +1,2 @@
+Now this is the place where we type in our imageUrl, and press the  submit button.
+As we can see we have the onClick event triggered for the submit button, which calls one of its props which is function passed from App.js 'OnButtonSubmit'

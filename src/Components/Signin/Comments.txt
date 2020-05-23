@@ -1,0 +1,4 @@
+The Siginin box code is simply taken from tachyons. A simple seacrh result on Google will yield the desired result. Simple mods on the code, to fit our needs.
+
+OnRouteChnage is a function that is passed down as props from app.js, it is triggered whenever onClick event is triggerd.
+Note the peculiar arrow notation used here. This is inmportant, otherwise this function will be called simply on rednering this component, which no one wants.
